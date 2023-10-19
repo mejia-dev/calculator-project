@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/scripts.js"> </script>
+  <title>Calculator</title>
+</head>
+<body>
+  <form id="calculator">
+    <label for="inputBox1">First Number</label>
+    <input id="inputBox1" type="text">
+    <label for="inputBox2">Second Number</label>
+    <input id="inputBox2" type="text">
+
+    <label>
+      <input type="radio" name="operator" value="add">
+      Add
+    </label>
+    <label>
+      <input type="radio" name="operator" value="subtract">
+      Subtract
+    </label>
+    <label>
+      <input type="radio" name="operator" value="multiply">
+      Multiply
+    </label>
+    <label>
+      <input type="radio" name="operator" value="divide">
+      Divide
+    </label>
+    <button type="submit">Calculate</button>
+  </form>
+
+  <p id="result">Result</p>
+</body>
+</html>
